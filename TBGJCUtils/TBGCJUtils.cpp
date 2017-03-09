@@ -36,3 +36,11 @@ std::vector<int> readLine()
     getline(std::cin, inputStr);
     return getIntVec(inputStr);
 }
+
+std::string readLineString()
+{
+    string str;
+    ws(cin);
+    getline(cin, str);
+    return str;
+}

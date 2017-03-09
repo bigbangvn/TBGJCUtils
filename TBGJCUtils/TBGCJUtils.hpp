@@ -12,6 +12,7 @@
 #include <stdio.h>
 #include <vector>
 #include <string>
+#include <assert.h>
 using namespace std;
 
 #define ENABLE_LOG_DEBUG 1
@@ -24,5 +25,6 @@ using namespace std;
 long getTimeMsec();
 std::vector<int> getIntVec(string str);
 std::vector<int> readLine();
+std::string readLineString();
 
 #endif /* TBGCJUtils_hpp */

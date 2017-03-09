@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		C0F74DF11E714AF000D3552A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0F74DF01E714AF000D3552A /* main.cpp */; };
 		C0F74DF91E714B1000D3552A /* TBGCJUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0F74DF71E714B1000D3552A /* TBGCJUtils.cpp */; };
+		C0F74DFD1E7150FE00D3552A /* StoreCredit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0F74DFB1E7150FE00D3552A /* StoreCredit.cpp */; };
+		C0F74E001E7151A200D3552A /* ReverseWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0F74DFE1E7151A200D3552A /* ReverseWords.cpp */; };
+		C0F74E031E7153D800D3552A /* ReverseWords.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0F74E021E7153D800D3552A /* ReverseWords.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,12 @@
 		C0F74DF01E714AF000D3552A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C0F74DF71E714B1000D3552A /* TBGCJUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TBGCJUtils.cpp; sourceTree = "<group>"; };
 		C0F74DF81E714B1000D3552A /* TBGCJUtils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TBGCJUtils.hpp; sourceTree = "<group>"; };
+		C0F74DFB1E7150FE00D3552A /* StoreCredit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StoreCredit.cpp; sourceTree = "<group>"; };
+		C0F74DFC1E7150FE00D3552A /* StoreCredit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StoreCredit.hpp; sourceTree = "<group>"; };
+		C0F74DFE1E7151A200D3552A /* ReverseWords.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseWords.cpp; sourceTree = "<group>"; };
+		C0F74DFF1E7151A200D3552A /* ReverseWords.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ReverseWords.hpp; sourceTree = "<group>"; };
+		C0F74E011E7153D800D3552A /* ReverseWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseWords.h; sourceTree = "<group>"; };
+		C0F74E021E7153D800D3552A /* ReverseWords.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ReverseWords.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +72,22 @@
 				C0F74DF71E714B1000D3552A /* TBGCJUtils.cpp */,
 				C0F74DF81E714B1000D3552A /* TBGCJUtils.hpp */,
 				C0F74DF01E714AF000D3552A /* main.cpp */,
+				C0F74DFA1E7150EE00D3552A /* Examples */,
 			);
 			path = TBGJCUtils;
+			sourceTree = "<group>";
+		};
+		C0F74DFA1E7150EE00D3552A /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				C0F74DFB1E7150FE00D3552A /* StoreCredit.cpp */,
+				C0F74DFC1E7150FE00D3552A /* StoreCredit.hpp */,
+				C0F74DFE1E7151A200D3552A /* ReverseWords.cpp */,
+				C0F74DFF1E7151A200D3552A /* ReverseWords.hpp */,
+				C0F74E011E7153D800D3552A /* ReverseWords.h */,
+				C0F74E021E7153D800D3552A /* ReverseWords.mm */,
+			);
+			path = Examples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0F74E001E7151A200D3552A /* ReverseWords.cpp in Sources */,
+				C0F74DFD1E7150FE00D3552A /* StoreCredit.cpp in Sources */,
 				C0F74DF91E714B1000D3552A /* TBGCJUtils.cpp in Sources */,
 				C0F74DF11E714AF000D3552A /* main.cpp in Sources */,
+				C0F74E031E7153D800D3552A /* ReverseWords.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
