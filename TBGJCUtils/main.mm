@@ -9,11 +9,13 @@
 #include <iostream>
 #include "StoreCredit.hpp"
 #include "ReverseWords.h"
+#include "T9Spelling.hpp"
+
 #include <signal.h>
 
 int main(int argc, const char * argv[]) {
-    
     //storeCredit1();
-    reverseWords2();
+    //reverseWords2();
+    t9Spelling();
     return 0;
 }

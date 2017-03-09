@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C0F74DF11E714AF000D3552A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0F74DF01E714AF000D3552A /* main.cpp */; };
+		C05127A81E71765400A50995 /* T9Spelling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05127A61E71765400A50995 /* T9Spelling.cpp */; };
+		C0F74DF11E714AF000D3552A /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0F74DF01E714AF000D3552A /* main.mm */; };
 		C0F74DF91E714B1000D3552A /* TBGCJUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0F74DF71E714B1000D3552A /* TBGCJUtils.cpp */; };
 		C0F74DFD1E7150FE00D3552A /* StoreCredit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0F74DFB1E7150FE00D3552A /* StoreCredit.cpp */; };
 		C0F74E001E7151A200D3552A /* ReverseWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0F74DFE1E7151A200D3552A /* ReverseWords.cpp */; };
@@ -27,8 +28,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C05127A61E71765400A50995 /* T9Spelling.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = T9Spelling.cpp; sourceTree = "<group>"; };
+		C05127A71E71765400A50995 /* T9Spelling.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = T9Spelling.hpp; sourceTree = "<group>"; };
 		C0F74DED1E714AF000D3552A /* TBGJCUtils */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TBGJCUtils; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0F74DF01E714AF000D3552A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C0F74DF01E714AF000D3552A /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		C0F74DF71E714B1000D3552A /* TBGCJUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TBGCJUtils.cpp; sourceTree = "<group>"; };
 		C0F74DF81E714B1000D3552A /* TBGCJUtils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TBGCJUtils.hpp; sourceTree = "<group>"; };
 		C0F74DFB1E7150FE00D3552A /* StoreCredit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StoreCredit.cpp; sourceTree = "<group>"; };
@@ -71,7 +74,7 @@
 			children = (
 				C0F74DF71E714B1000D3552A /* TBGCJUtils.cpp */,
 				C0F74DF81E714B1000D3552A /* TBGCJUtils.hpp */,
-				C0F74DF01E714AF000D3552A /* main.cpp */,
+				C0F74DF01E714AF000D3552A /* main.mm */,
 				C0F74DFA1E7150EE00D3552A /* Examples */,
 			);
 			path = TBGJCUtils;
@@ -86,6 +89,8 @@
 				C0F74DFF1E7151A200D3552A /* ReverseWords.hpp */,
 				C0F74E011E7153D800D3552A /* ReverseWords.h */,
 				C0F74E021E7153D800D3552A /* ReverseWords.mm */,
+				C05127A61E71765400A50995 /* T9Spelling.cpp */,
+				C05127A71E71765400A50995 /* T9Spelling.hpp */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -151,7 +156,8 @@
 				C0F74E001E7151A200D3552A /* ReverseWords.cpp in Sources */,
 				C0F74DFD1E7150FE00D3552A /* StoreCredit.cpp in Sources */,
 				C0F74DF91E714B1000D3552A /* TBGCJUtils.cpp in Sources */,
-				C0F74DF11E714AF000D3552A /* main.cpp in Sources */,
+				C0F74DF11E714AF000D3552A /* main.mm in Sources */,
+				C05127A81E71765400A50995 /* T9Spelling.cpp in Sources */,
 				C0F74E031E7153D800D3552A /* ReverseWords.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +255,7 @@
 		C0F74DF51E714AF000D3552A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEVELOPMENT_TEAM = CVB6BX97VM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -257,6 +264,7 @@
 		C0F74DF61E714AF000D3552A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEVELOPMENT_TEAM = CVB6BX97VM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -281,6 +289,7 @@
 				C0F74DF61E714AF000D3552A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

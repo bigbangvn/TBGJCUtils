@@ -10,16 +10,15 @@
 #define TBGCJUtils_hpp
 
 #include <stdio.h>
+#include <iostream>
 #include <vector>
 #include <string>
 #include <assert.h>
 using namespace std;
 
 #define ENABLE_LOG_DEBUG 1
-#if ENABLE_LOG_DEBUG
-#define LOG_DEBUG(...) printf(...)
-#else
-#define LOG_DEBUG(...) {}
+#if !ENABLE_LOG_DEBUG
+#define printf(...) {}
 #endif
 
 long getTimeMsec();

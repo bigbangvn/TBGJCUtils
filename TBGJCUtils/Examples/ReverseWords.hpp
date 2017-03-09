@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+void reverseWords();
+
 #endif /* ReverseWords_hpp */

@@ -6,7 +6,6 @@
 //  Copyright © 2017 trongbangvp@gmail.com. All rights reserved.
 //
 #include <sstream>
-#include <iostream>
 #include <sys/time.h>
 #include "TBGCJUtils.hpp"
 
