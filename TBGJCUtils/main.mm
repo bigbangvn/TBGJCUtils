@@ -8,8 +8,12 @@
 
 #include <iostream>
 #include "StoreCredit.hpp"
+#include "ReverseWords.h"
+#include <signal.h>
 
 int main(int argc, const char * argv[]) {
-    storeCredit1();
+    
+    //storeCredit1();
+    reverseWords2();
     return 0;
 }
