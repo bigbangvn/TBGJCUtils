@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71BFF3381E71BB07000942B9 /* SenateEvacuation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71BFF3361E71BB07000942B9 /* SenateEvacuation.cpp */; };
+		71D1F8DB1E73911700A43D28 /* MinimumScalarProduct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71D1F8D91E73911700A43D28 /* MinimumScalarProduct.cpp */; };
+		71D1F8DE1E74585000A43D28 /* Milkshakes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71D1F8DC1E74585000A43D28 /* Milkshakes.cpp */; };
 		C05127A81E71765400A50995 /* T9Spelling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05127A61E71765400A50995 /* T9Spelling.cpp */; };
 		C0F74DF11E714AF000D3552A /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0F74DF01E714AF000D3552A /* main.mm */; };
 		C0F74DF91E714B1000D3552A /* TBGCJUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0F74DF71E714B1000D3552A /* TBGCJUtils.cpp */; };
@@ -28,6 +31,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		71BFF3361E71BB07000942B9 /* SenateEvacuation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SenateEvacuation.cpp; sourceTree = "<group>"; };
+		71BFF3371E71BB07000942B9 /* SenateEvacuation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SenateEvacuation.hpp; sourceTree = "<group>"; };
+		71D1F8D91E73911700A43D28 /* MinimumScalarProduct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumScalarProduct.cpp; sourceTree = "<group>"; };
+		71D1F8DA1E73911700A43D28 /* MinimumScalarProduct.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MinimumScalarProduct.hpp; sourceTree = "<group>"; };
+		71D1F8DC1E74585000A43D28 /* Milkshakes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Milkshakes.cpp; sourceTree = "<group>"; };
+		71D1F8DD1E74585000A43D28 /* Milkshakes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Milkshakes.hpp; sourceTree = "<group>"; };
 		C05127A61E71765400A50995 /* T9Spelling.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = T9Spelling.cpp; sourceTree = "<group>"; };
 		C05127A71E71765400A50995 /* T9Spelling.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = T9Spelling.hpp; sourceTree = "<group>"; };
 		C0F74DED1E714AF000D3552A /* TBGJCUtils */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TBGJCUtils; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +100,12 @@
 				C0F74E021E7153D800D3552A /* ReverseWords.mm */,
 				C05127A61E71765400A50995 /* T9Spelling.cpp */,
 				C05127A71E71765400A50995 /* T9Spelling.hpp */,
+				71BFF3361E71BB07000942B9 /* SenateEvacuation.cpp */,
+				71BFF3371E71BB07000942B9 /* SenateEvacuation.hpp */,
+				71D1F8D91E73911700A43D28 /* MinimumScalarProduct.cpp */,
+				71D1F8DA1E73911700A43D28 /* MinimumScalarProduct.hpp */,
+				71D1F8DC1E74585000A43D28 /* Milkshakes.cpp */,
+				71D1F8DD1E74585000A43D28 /* Milkshakes.hpp */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -126,7 +141,7 @@
 				TargetAttributes = {
 					C0F74DEC1E714AF000D3552A = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = CVB6BX97VM;
+						DevelopmentTeam = 5HHW6TCSUF;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -157,8 +172,11 @@
 				C0F74DFD1E7150FE00D3552A /* StoreCredit.cpp in Sources */,
 				C0F74DF91E714B1000D3552A /* TBGCJUtils.cpp in Sources */,
 				C0F74DF11E714AF000D3552A /* main.mm in Sources */,
+				71D1F8DB1E73911700A43D28 /* MinimumScalarProduct.cpp in Sources */,
+				71D1F8DE1E74585000A43D28 /* Milkshakes.cpp in Sources */,
 				C05127A81E71765400A50995 /* T9Spelling.cpp in Sources */,
 				C0F74E031E7153D800D3552A /* ReverseWords.mm in Sources */,
+				71BFF3381E71BB07000942B9 /* SenateEvacuation.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +274,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
-				DEVELOPMENT_TEAM = CVB6BX97VM;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				DEVELOPMENT_TEAM = 5HHW6TCSUF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -265,8 +285,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
-				DEVELOPMENT_TEAM = CVB6BX97VM;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				DEVELOPMENT_TEAM = 5HHW6TCSUF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

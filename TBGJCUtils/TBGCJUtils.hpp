@@ -24,6 +24,7 @@ using namespace std;
 long getTimeMsec();
 std::vector<int> getIntVec(string str);
 std::vector<int> readLine();
-std::string readLineString();
+std::string readLineString(); //skip space, newline at first
+std::string readLineString2();
 
 #endif /* TBGCJUtils_hpp */

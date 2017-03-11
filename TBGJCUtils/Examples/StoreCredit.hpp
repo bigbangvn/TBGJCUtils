@@ -10,6 +10,6 @@
 #define StoreCredit_hpp
 
 #include <stdio.h>
-void storeCredit1();
+void storeCredit1(); //TESTED
 
 #endif /* StoreCredit_hpp */

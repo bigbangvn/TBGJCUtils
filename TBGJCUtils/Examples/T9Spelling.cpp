@@ -78,21 +78,24 @@ void t9Spelling()
     map['y' - 'a'][1] = 3;
     map['z' - 'a'][0] = '9';
     map['z' - 'a'][1] = 4;
-    const int MAX_MSG_LEN = 15;
+    const int MAX_MSG_LEN = 1000;
     const int MAX_T9_MSG_LEN = MAX_MSG_LEN * 4;
     
     int numCase;
     cin >> numCase;
+    cin.ignore();
     printf("Num test case: %d\n", numCase);
     for(int i = 0; i<numCase; ++i)
     {
-        string lineStr = readLineString();
+        string lineStr = readLineString2();
         const char* charArr = lineStr.c_str();
+        printf("LINE %d: %s\n", i, charArr);
         int n = lineStr.length();
         char crrChar = -1;
         
         char crrKeyboardChar = -1;
         char prevKeyboardChar = -1;
+        char numPressRepeat = -1;
         
         char result[MAX_T9_MSG_LEN];
         int resultIdx = 0;
@@ -101,25 +104,28 @@ void t9Spelling()
             crrChar = charArr[j];
             if(isspace(crrChar))
             {
-                result[resultIdx++] = '0';
+                crrKeyboardChar = '0';
+                numPressRepeat = 1;
             } else
             {
                 char* mapVal = map[crrChar - 'a'];
                 crrKeyboardChar = mapVal[0];
-                
-                if(crrKeyboardChar >= 0 && crrKeyboardChar == prevKeyboardChar) //if consecutive characters are on the same button -> space
-                {
-                    //Add a space to indicate a pause
-                    result[resultIdx++] = ' ';
-                }
-                prevKeyboardChar = crrKeyboardChar;
-                
-                int repeat = mapVal[1];
-                for(int k = 0; k<repeat; ++k)
-                {
-                    result[resultIdx++] = crrKeyboardChar;
-                }
+                numPressRepeat = mapVal[1];
             }
+            
+            //if consecutive characters are on the same button -> space
+            if(crrKeyboardChar >= 0 && crrKeyboardChar == prevKeyboardChar)
+            {
+                //Add a space to indicate a pause
+                result[resultIdx++] = ' ';
+            }
+            
+            for(int k = 0; k<numPressRepeat; ++k)
+            {
+                result[resultIdx++] = crrKeyboardChar;
+            }
+            
+            prevKeyboardChar = crrKeyboardChar;
         }
         result[resultIdx++] = '\0';
         assert(resultIdx < MAX_T9_MSG_LEN);
@@ -130,4 +136,10 @@ void t9Spelling()
     for(int i = 0; i<numChar; ++i) {
         free(map[i]);
     }
+}
+
+//Read from file
+void t9spelling2()
+{
+    
 }

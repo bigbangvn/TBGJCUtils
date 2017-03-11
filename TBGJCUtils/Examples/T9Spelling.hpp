@@ -10,5 +10,5 @@
 #define T9Spelling_hpp
 
 #include <stdio.h>
-void t9Spelling();
+void t9Spelling(); //TESTED
 #endif /* T9Spelling_hpp */

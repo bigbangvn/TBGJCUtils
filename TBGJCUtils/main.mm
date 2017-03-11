@@ -10,12 +10,17 @@
 #include "StoreCredit.hpp"
 #include "ReverseWords.h"
 #include "T9Spelling.hpp"
-
+#include "SenateEvacuation.hpp"
+#include "MinimumScalarProduct.hpp"
 #include <signal.h>
+#include "Milkshakes.hpp"
 
 int main(int argc, const char * argv[]) {
     //storeCredit1();
     //reverseWords2();
-    t9Spelling();
+    //t9Spelling();
+    //senateEvacuation();
+    //solveMinScalarProduct();
+    milkShakes();
     return 0;
 }

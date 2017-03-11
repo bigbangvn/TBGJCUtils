@@ -33,13 +33,21 @@ std::vector<int> readLine()
     string inputStr;
     ws(cin);
     getline(std::cin, inputStr);
+    //cout<<"LINE:"<<inputStr<<endl;
     return getIntVec(inputStr);
 }
 
-std::string readLineString()
+std::string readLineString() //skip space, newline at first
 {
     string str;
-    ws(cin);
+    ws(cin); //skip space, newline
+    getline(cin, str);
+    return str;
+}
+
+std::string readLineString2()
+{
+    string str;
     getline(cin, str);
     return str;
 }
