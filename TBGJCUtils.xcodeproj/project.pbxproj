@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7130023B1E987B310089EC91 /* OversizedPancakeFlipper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7130023A1E987B310089EC91 /* OversizedPancakeFlipper.cpp */; };
+		7130023D1E988EDF0089EC91 /* TidyNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7130023C1E988EDF0089EC91 /* TidyNumbers.cpp */; };
+		7130023F1E98AC880089EC91 /* BathroomStalls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7130023E1E98AC880089EC91 /* BathroomStalls.cpp */; };
+		713002541E9966900089EC91 /* FashionShow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 713002531E9966900089EC91 /* FashionShow.cpp */; };
 		71BFF3381E71BB07000942B9 /* SenateEvacuation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71BFF3361E71BB07000942B9 /* SenateEvacuation.cpp */; };
+		71C758521E8767260053BA0F /* StandingOvation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71C758501E8767260053BA0F /* StandingOvation.cpp */; };
+		71C758551E8772B30053BA0F /* InfiniteHouseOfPancakes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71C758531E8772B30053BA0F /* InfiniteHouseOfPancakes.cpp */; };
 		71D1F8DB1E73911700A43D28 /* MinimumScalarProduct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71D1F8D91E73911700A43D28 /* MinimumScalarProduct.cpp */; };
 		71D1F8DE1E74585000A43D28 /* Milkshakes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71D1F8DC1E74585000A43D28 /* Milkshakes.cpp */; };
 		C05127A81E71765400A50995 /* T9Spelling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C05127A61E71765400A50995 /* T9Spelling.cpp */; };
@@ -31,8 +37,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7130023A1E987B310089EC91 /* OversizedPancakeFlipper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OversizedPancakeFlipper.cpp; sourceTree = "<group>"; };
+		7130023C1E988EDF0089EC91 /* TidyNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TidyNumbers.cpp; sourceTree = "<group>"; };
+		7130023E1E98AC880089EC91 /* BathroomStalls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BathroomStalls.cpp; sourceTree = "<group>"; };
+		713002531E9966900089EC91 /* FashionShow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FashionShow.cpp; sourceTree = "<group>"; };
 		71BFF3361E71BB07000942B9 /* SenateEvacuation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SenateEvacuation.cpp; sourceTree = "<group>"; };
 		71BFF3371E71BB07000942B9 /* SenateEvacuation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SenateEvacuation.hpp; sourceTree = "<group>"; };
+		71C758501E8767260053BA0F /* StandingOvation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StandingOvation.cpp; sourceTree = "<group>"; };
+		71C758511E8767260053BA0F /* StandingOvation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StandingOvation.hpp; sourceTree = "<group>"; };
+		71C758531E8772B30053BA0F /* InfiniteHouseOfPancakes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InfiniteHouseOfPancakes.cpp; sourceTree = "<group>"; };
+		71C758541E8772B30053BA0F /* InfiniteHouseOfPancakes.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = InfiniteHouseOfPancakes.hpp; sourceTree = "<group>"; };
 		71D1F8D91E73911700A43D28 /* MinimumScalarProduct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumScalarProduct.cpp; sourceTree = "<group>"; };
 		71D1F8DA1E73911700A43D28 /* MinimumScalarProduct.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MinimumScalarProduct.hpp; sourceTree = "<group>"; };
 		71D1F8DC1E74585000A43D28 /* Milkshakes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Milkshakes.cpp; sourceTree = "<group>"; };
@@ -62,6 +76,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		713002391E987B130089EC91 /* 2017 */ = {
+			isa = PBXGroup;
+			children = (
+				7130023A1E987B310089EC91 /* OversizedPancakeFlipper.cpp */,
+				7130023C1E988EDF0089EC91 /* TidyNumbers.cpp */,
+				7130023E1E98AC880089EC91 /* BathroomStalls.cpp */,
+				713002531E9966900089EC91 /* FashionShow.cpp */,
+			);
+			path = 2017;
+			sourceTree = "<group>";
+		};
+		71C7584F1E8766040053BA0F /* 2015 */ = {
+			isa = PBXGroup;
+			children = (
+				71C758501E8767260053BA0F /* StandingOvation.cpp */,
+				71C758511E8767260053BA0F /* StandingOvation.hpp */,
+				71C758531E8772B30053BA0F /* InfiniteHouseOfPancakes.cpp */,
+				71C758541E8772B30053BA0F /* InfiniteHouseOfPancakes.hpp */,
+			);
+			path = 2015;
+			sourceTree = "<group>";
+		};
 		C0F74DE41E714AEF00D3552A = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +128,8 @@
 		C0F74DFA1E7150EE00D3552A /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				713002391E987B130089EC91 /* 2017 */,
+				71C7584F1E8766040053BA0F /* 2015 */,
 				C0F74DFB1E7150FE00D3552A /* StoreCredit.cpp */,
 				C0F74DFC1E7150FE00D3552A /* StoreCredit.hpp */,
 				C0F74DFE1E7151A200D3552A /* ReverseWords.cpp */,
@@ -168,8 +206,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7130023D1E988EDF0089EC91 /* TidyNumbers.cpp in Sources */,
+				71C758551E8772B30053BA0F /* InfiniteHouseOfPancakes.cpp in Sources */,
+				71C758521E8767260053BA0F /* StandingOvation.cpp in Sources */,
 				C0F74E001E7151A200D3552A /* ReverseWords.cpp in Sources */,
 				C0F74DFD1E7150FE00D3552A /* StoreCredit.cpp in Sources */,
+				7130023B1E987B310089EC91 /* OversizedPancakeFlipper.cpp in Sources */,
+				7130023F1E98AC880089EC91 /* BathroomStalls.cpp in Sources */,
 				C0F74DF91E714B1000D3552A /* TBGCJUtils.cpp in Sources */,
 				C0F74DF11E714AF000D3552A /* main.mm in Sources */,
 				71D1F8DB1E73911700A43D28 /* MinimumScalarProduct.cpp in Sources */,
@@ -177,6 +220,7 @@
 				C05127A81E71765400A50995 /* T9Spelling.cpp in Sources */,
 				C0F74E031E7153D800D3552A /* ReverseWords.mm in Sources */,
 				71BFF3381E71BB07000942B9 /* SenateEvacuation.cpp in Sources */,
+				713002541E9966900089EC91 /* FashionShow.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

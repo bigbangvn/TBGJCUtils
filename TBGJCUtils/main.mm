@@ -14,13 +14,17 @@
 #include "MinimumScalarProduct.hpp"
 #include <signal.h>
 #include "Milkshakes.hpp"
+#include "StandingOvation.hpp"
 
+#if 0
 int main(int argc, const char * argv[]) {
     //storeCredit1();
     //reverseWords2();
     //t9Spelling();
     //senateEvacuation();
     //solveMinScalarProduct();
-    milkShakes();
+    //milkShakes();
+    standingOvation();
     return 0;
 }
+#endif
