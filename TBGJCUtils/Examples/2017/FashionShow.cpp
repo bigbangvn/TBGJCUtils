@@ -37,6 +37,7 @@ void showStage(char* stage, int N)
     }
 }
 
+#if 0
 int main(int argc, const char * argv[]) {
     int numTest;
     cin >> numTest;
@@ -61,3 +62,4 @@ int main(int argc, const char * argv[]) {
         showStage(stage, N);
     }
 }
+#endif

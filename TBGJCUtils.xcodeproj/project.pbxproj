@@ -11,6 +11,7 @@
 		7130023D1E988EDF0089EC91 /* TidyNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7130023C1E988EDF0089EC91 /* TidyNumbers.cpp */; };
 		7130023F1E98AC880089EC91 /* BathroomStalls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7130023E1E98AC880089EC91 /* BathroomStalls.cpp */; };
 		713002541E9966900089EC91 /* FashionShow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 713002531E9966900089EC91 /* FashionShow.cpp */; };
+		7148ADED1EA04E4600CC9235 /* MushroomMonster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7148ADEC1EA04E4600CC9235 /* MushroomMonster.cpp */; };
 		71BFF3381E71BB07000942B9 /* SenateEvacuation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71BFF3361E71BB07000942B9 /* SenateEvacuation.cpp */; };
 		71C758521E8767260053BA0F /* StandingOvation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71C758501E8767260053BA0F /* StandingOvation.cpp */; };
 		71C758551E8772B30053BA0F /* InfiniteHouseOfPancakes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71C758531E8772B30053BA0F /* InfiniteHouseOfPancakes.cpp */; };
@@ -41,6 +42,7 @@
 		7130023C1E988EDF0089EC91 /* TidyNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TidyNumbers.cpp; sourceTree = "<group>"; };
 		7130023E1E98AC880089EC91 /* BathroomStalls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BathroomStalls.cpp; sourceTree = "<group>"; };
 		713002531E9966900089EC91 /* FashionShow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FashionShow.cpp; sourceTree = "<group>"; };
+		7148ADEC1EA04E4600CC9235 /* MushroomMonster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MushroomMonster.cpp; sourceTree = "<group>"; };
 		71BFF3361E71BB07000942B9 /* SenateEvacuation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SenateEvacuation.cpp; sourceTree = "<group>"; };
 		71BFF3371E71BB07000942B9 /* SenateEvacuation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SenateEvacuation.hpp; sourceTree = "<group>"; };
 		71C758501E8767260053BA0F /* StandingOvation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StandingOvation.cpp; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				71C758511E8767260053BA0F /* StandingOvation.hpp */,
 				71C758531E8772B30053BA0F /* InfiniteHouseOfPancakes.cpp */,
 				71C758541E8772B30053BA0F /* InfiniteHouseOfPancakes.hpp */,
+				7148ADEC1EA04E4600CC9235 /* MushroomMonster.cpp */,
 			);
 			path = 2015;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				C0F74E001E7151A200D3552A /* ReverseWords.cpp in Sources */,
 				C0F74DFD1E7150FE00D3552A /* StoreCredit.cpp in Sources */,
 				7130023B1E987B310089EC91 /* OversizedPancakeFlipper.cpp in Sources */,
+				7148ADED1EA04E4600CC9235 /* MushroomMonster.cpp in Sources */,
 				7130023F1E98AC880089EC91 /* BathroomStalls.cpp in Sources */,
 				C0F74DF91E714B1000D3552A /* TBGCJUtils.cpp in Sources */,
 				C0F74DF11E714AF000D3552A /* main.mm in Sources */,
